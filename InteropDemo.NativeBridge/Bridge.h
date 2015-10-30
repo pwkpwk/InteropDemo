@@ -7,11 +7,14 @@ namespace InteropDemo
 		public ref class Bridge sealed
 		{
 		private:
-			const Shared::IInteropCallback ^m_callback;
+			Shared::IInteropCallback ^ const m_callback;
 
 		public:
 			Bridge(Shared::IInteropCallback ^callback);
 			virtual ~Bridge();
+
+			int DoNativeThing(int factor1, int factor2);
+			void CallMeBack(System::String ^parameter);
 		};
 	}
 }

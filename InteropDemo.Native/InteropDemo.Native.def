@@ -1,0 +1,4 @@
+LIBRARY "InterpoDemo.Native"
+
+EXPORTS
+	DoNativeThing

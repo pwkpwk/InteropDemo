@@ -4,4 +4,5 @@
 
 #pragma once
 
-
+#include <Windows.h>
+#include "..\InteropDemo.Native\InteropDemo.Native.h"
